@@ -1,3 +1,5 @@
+This website is an AI Prompt Generator, built leveraging the robust capabilities of Next.js and React.js, styled with Tailwind CSS. It employs MongoDB and Express for handling backend operations, while NextAuth provides a secure authentication system. A visually appealing feature of the project is the Bubble background animation, contributed by Diyorbek Olimov.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

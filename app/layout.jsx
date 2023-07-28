@@ -13,15 +13,28 @@ const RootLayout = ({ children }) => {
     <html lang="en">
         <body>
             <Provider>
-                <div className="main">
-                    <div className="gradient"/>
+                <div className="wrapper">
+                  <div><span className="dot"></span></div>
+                  <div><span className="dot"></span></div>
+                  <div><span className="dot"></span></div>
+                  <div><span className="dot"></span></div>
+                  <div><span className="dot"></span></div>
+                  <div><span className="dot"></span></div>
+                  <div><span className="dot"></span></div>
+                  <div><span className="dot"></span></div>
+                  <div><span className="dot"></span></div>
+                  <div><span className="dot"></span></div>
+                  <div><span className="dot"></span></div>
+                  <div><span className="dot"></span></div>
+                  <div><span className="dot"></span></div>
+                  <div><span className="dot"></span></div>
+                  <div><span className="dot"></span></div>
                 </div>
-
                 <main className="app">
                     <Nav/>
                     {children}
                 </main>       
-                </Provider>
+            </Provider>
         </body>
     </html>
   )
